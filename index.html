@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samm's Link Tree</title>
+    <meta name="description" content="Samm's personal link tree. Find all my social media and contact links in one place.">
+    <meta name="author" content="Samm">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://samm8g.github.io/">
+    <meta property="og:title" content="Samm's Link Tree">
+    <meta property="og:description" content="Find all my social media and contact links in one place.">
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/105073478">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://samm8g.github.io/">
+    <meta property="twitter:title" content="Samm's Link Tree">
+    <meta property="twitter:description" content="Find all my social media and contact links in one place.">
+    <meta property="twitter:image" content="https://avatars.githubusercontent.com/u/105073478">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #8a786c, #d0b594);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            color: #333;
+            transition: background 0.5s ease, color 0.5s ease;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent white */
+            backdrop-filter: blur(10px); /* Glassy blur effect */
+            border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle light border */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Keep a subtle shadow */
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            width: 90%;
+            max-width: 500px;
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 3px solid #8a786c;
+        }
+
+	.warning-message {
+	    color: #8a786c;
+	}
+
+	.mailto {
+	    text-decoration: none;
+	    color: #8a786c;
+	}
+
+        h1 {
+            color: #8a786c;
+            margin-bottom: 30px;
+        }
+
+        p {
+            margin-bottom: 30px;
+            color: #8a786c;
+        }
+
+        .link-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: calc(100% - 20px);
+            padding: 15px 10px;
+            margin-bottom: 15px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+        }
+
+        .link-button:hover {
+            background-color: #0056b3;
+        }
+
+        .link-button.github { background-color: #333; }
+        .link-button.github:hover { background-color: #000; }
+        .link-button.gitlab { background-color: #FCA121; }
+        .link-button.gitlab:hover { background-color: #e69520; }
+        .link-button.matrix { background-color: #000; }
+        .link-button.matrix:hover { background-color: #333; }
+        .link-button.twitter { background-color: #000; }
+        .link-button.twitter:hover { background-color: #333; }
+        .link-button.instagram { background-color: #E4405F; }
+        .link-button.instagram:hover { background-color: #c13584; }
+        .link-button.youtube { background-color: #FF0000; }
+        .link-button.youtube:hover { background-color: #c40000; }
+        .link-button.tiktok { background-color: #000; }
+        .link-button.tiktok:hover { background-color: #333; }
+        .link-button.discord { background-color: #5865F2; }
+        .link-button.discord:hover { background-color: #4752c4; }
+        .link-button.reddit { background-color: #FF4500; }
+        .link-button.reddit:hover { background-color: #cc3700; }
+        .link-button.bluesky { background-color: #007bff; }
+        .link-button.bluesky:hover { background-color: #0056b3; }
+        .link-button.spotify { background-color: #1DB954; }
+        .link-button.spotify:hover { background-color: #168a3d; }
+        .link-button.twitch { background-color: #9146FF; }
+        .link-button.twitch:hover { background-color: #772ce8; }
+
+        /* Night Mode Styles */
+
+        body.dark-mode {
+            background: linear-gradient(to right, #4c352b, #89735d);
+            color: #eee;
+        }
+
+        body.dark-mode .container {
+            background-color: rgba(0, 0, 0, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        body.dark-mode h1,
+        body.dark-mode .link-button,
+        body.dark-mode .link-button.github,
+        body.dark-mode .link-button.gitlab,
+        body.dark-mode .link-button.matrix,
+        body.dark-mode .link-button.twitter,
+        body.dark-mode .link-button.instagram,
+        body.dark-mode .link-button.youtube,
+        body.dark-mode .link-button.tiktok,
+        body.dark-mode .link-button.discord,
+        body.dark-mode .link-button.reddit,
+        body.dark-mode .link-button.bluesky,
+        body.dark-mode .link-button.spotify,
+        body.dark-mode .link-button.twitch {
+            color: #eee;
+        }
+
+        body.dark-mode h1 {
+            color: #d0b594;
+        }
+
+        body.dark-mode p {
+            color: #d0b594;
+        }
+
+        body.dark-mode .warning-message {
+            color: #d0b594;
+        }
+
+	body.dark-mode .mailto {
+	    color: #d0b594;
+	}
+
+        body.dark-mode .profile-pic {
+            border-color: #d0b594;
+        }
+
+        #darkModeToggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 24px;
+            color: #333;
+            z-index: 1000;
+        }
+
+        body.dark-mode #darkModeToggle {
+            color: #eee;
+        }
+
+        body.dark-mode .link-button.github { background-color: #555; }
+        body.dark-mode .link-button.github:hover { background-color: #777; }
+        body.dark-mode .link-button.gitlab { background-color: #a06000; }
+        body.dark-mode .link-button.gitlab:hover { background-color: #c08000; }
+        body.dark-mode .link-button.matrix { background-color: #555; }
+        body.dark-mode .link-button.matrix:hover { background-color: #777; }
+        body.dark-mode .link-button.twitter { background-color: #555; }
+        body.dark-mode .link-button.twitter:hover { background-color: #777; }
+        body.dark-mode .link-button.instagram { background-color: #a03040; }
+        body.dark-mode .link-button.instagram:hover { background-color: #c04050; }
+        body.dark-mode .link-button.youtube { background-color: #a00000; }
+        body.dark-mode .link-button.youtube:hover { background-color: #c00000; }
+        body.dark-mode .link-button.tiktok { background-color: #555; }
+        body.dark-mode .link-button.tiktok:hover { background-color: #777; }
+        body.dark-mode .link-button.discord { background-color: #4040a0; }
+        body.dark-mode .link-button.discord:hover { background-color: #5050c0; }
+        body.dark-mode .link-button.reddit { background-color: #a03000; }
+        body.dark-mode .link-button.reddit:hover { background-color: #c04000; }
+        body.dark-mode .link-button.bluesky { background-color: #0050a0; }
+        body.dark-mode .link-button.bluesky:hover { background-color: #0060c0; }
+        body.dark-mode .link-button.spotify { background-color: #108030; }
+        body.dark-mode .link-button.spotify:hover { background-color: #10a040; }
+        body.dark-mode .link-button.twitch { background-color: #6030a0; }
+        body.dark-mode .link-button.twitch:hover { background-color: #8040c0; }
+
+        .collapsible-header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #8a786c;
+        }
+
+        body.dark-mode .collapsible-header {
+            color: #d0b594;
+        }
+
+        .collapsible-header p {
+            margin: 0;
+            font-weight: bold;
+        }
+
+        .toggle-button {
+            background: none;
+            border: none;
+            font-size: 1.2em;
+            color: inherit;
+            margin-left: 10px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .collapsible-content {
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+            max-height: 0;
+        }
+
+        .collapsible-content.hidden {
+            max-height: 0;
+        }
+
+        .collapsible-content.show {
+            max-height: 1000px; /* Adjust based on content height */
+        }
+
+        .toggle-button.rotated {
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+<body>
+    <button id="darkModeToggle" aria-label="Toggle dark mode"><i class="fas fa-moon" aria-hidden="true"></i></button>
+    <div class="container">
+        <img src="https://avatars.githubusercontent.com/u/105073478" alt="Samm's profile picture" class="profile-pic">
+        <h1>Samm <i class="fab fa-linux" aria-hidden="true"></i></h1>
+        <p><a class="mailto" href="mailto:samm8g@protonmail.com"><i class="fa-solid fa-envelope" aria-hidden="true"></i> samm8g@protonmail.com</a></p>
+        <p class="warning-message"><i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i> Not open for commissions</p>
+        <p>Hello, I'm Samm. A guy who's learning programming skills. Please support me from my links. Contact via <u>Matrix</u> chat only; other social media accounts are private and not monitored for direct messages.</p>
+        <a href="https://github.com/samm8g" target="_blank" rel="noopener noreferrer" class="link-button github"><i class="fa-brands fa-github" aria-hidden="true"></i>GitHub</a>
+        <a href="https://gitlab.com/samm8g" target="_blank" rel="noopener noreferrer" class="link-button gitlab"><i class="fa-brands fa-gitlab" aria-hidden="true"></i>GitLab</a>
+        <a href="https://matrix.to/#/@samm8g:matrix.org" target="_blank" rel="noopener noreferrer" class="link-button matrix"><i class="fa-solid fa-link" aria-hidden="true"></i>Matrix</a>
+        
+	<div class="collapsible-header" aria-controls="socialsContent" aria-expanded="false">
+            <p>Other Socials </p>
+            <button id="socialsToggle" class="toggle-button" aria-label="Toggle other socials section"><i class="fas fa-chevron-down" aria-hidden="true"></i></button>
+        </div>
+        <div id="socialsContent" class="collapsible-content hidden">
+            <hr>
+            <a href="https://bsky.app/profile/samm8g.bsky.social" target="_blank" rel="noopener noreferrer" class="link-button bluesky"><i class="fa-solid fa-cloud" aria-hidden="true"></i>Bluesky</a>
+            <a href="https://discord.com/users/968889326878486628" target="_blank" rel="noopener noreferrer" class="link-button discord"><i class="fa-brands fa-discord" aria-hidden="true"></i>Discord</a>
+            <a href="https://instagram.com/samm8g" target="_blank" rel="noopener noreferrer" class="link-button instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i>Instagram</a>
+            <a href="https://www.reddit.com/user/samm8g" target="_blank" rel="noopener noreferrer" class="link-button reddit"><i class="fa-brands fa-reddit-alien" aria-hidden="true"></i>Reddit</a>
+            <a href="https://open.spotify.com/user/crfu3yzzhtws8u6pc60kpt1q7" target="_blank" rel="noopener noreferrer" class="link-button spotify"><i class="fa-brands fa-spotify" aria-hidden="true"></i>Spotify</a>
+            <a href="https://tiktok.com/@samm8gg" target="_blank" rel="noopener noreferrer" class="link-button tiktok"><i class="fa-brands fa-tiktok" aria-hidden="true"></i>TikTok</a>
+            <a href="https://www.twitch.tv/samm8g" target="_blank" rel="noopener noreferrer" class="link-button twitch"><i class="fa-brands fa-twitch" aria-hidden="true"></i>Twitch</a>
+            <a href="https://twitter.com/samm8g" target="_blank" rel="noopener noreferrer" class="link-button twitter"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i>Twitter</a>
+            <a href="https://youtube.com/@Samm8g" target="_blank" rel="noopener noreferrer" class="link-button youtube"><i class="fa-brands fa-youtube" aria-hidden="true"></i>YouTube</a>
+        </div>
+    </div>
+    <script>
+        const darkModeToggle = document.getElementById('darkModeToggle');
+        const body = document.body;
+
+        function applyTheme(isDarkMode) {
+            if (isDarkMode) {
+                body.classList.add('dark-mode');
+                darkModeToggle.querySelector('i').classList.remove('fa-moon');
+                darkModeToggle.querySelector('i').classList.add('fa-sun');
+            } else {
+                body.classList.remove('dark-mode');
+                darkModeToggle.querySelector('i').classList.remove('fa-sun');
+                darkModeToggle.querySelector('i').classList.add('fa-moon');
+            }
+        }
+
+        // Check for saved preference
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) {
+            applyTheme(savedTheme === 'dark');
+        } else {
+            // Check system preference
+            const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
+            applyTheme(prefersDarkMode.matches);
+
+            // Listen for changes in system preference
+            prefersDarkMode.addEventListener('change', (e) => {
+                // Only auto-switch if no manual preference is set
+                if (!localStorage.getItem('theme')) {
+                    applyTheme(e.matches);
+                }
+            });
+        }
+
+        darkModeToggle.addEventListener('click', () => {
+            const isCurrentlyDarkMode = body.classList.contains('dark-mode');
+            applyTheme(!isCurrentlyDarkMode); // Toggle the theme
+            localStorage.setItem('theme', !isCurrentlyDarkMode ? 'dark' : 'light'); // Save the new preference
+        });
+
+        const socialsToggle = document.getElementById('socialsToggle');
+        const socialsContent = document.getElementById('socialsContent');
+        const collapsibleHeader = document.querySelector('.collapsible-header');
+
+        collapsibleHeader.addEventListener('click', () => {
+            const isHidden = socialsContent.classList.contains('hidden');
+            socialsContent.classList.toggle('hidden');
+            socialsContent.classList.toggle('show');
+            socialsToggle.classList.toggle('rotated');
+            collapsibleHeader.setAttribute('aria-expanded', !isHidden);
+        });
+    </script>
+</body>
+</html>
