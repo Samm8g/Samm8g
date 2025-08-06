@@ -8,12 +8,13 @@ I am a self-taught developer with experience in various programming languages an
 
 ## Skills & Technologies
 
-py,html,css,js,bash,nix,kotlin,pycharm,webstorm,vscode,idea
+[![My Skills](https://skillicons.dev/icons?i=py,html,css,js,bash,nix,kotlin,pycharm,webstorm,vscode,idea&perline=8)](https://skillicons.dev)
 
 ## GitHub Stats
 
-Public Repositories: 5 | Followers: 2 | Following: 5
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Samm8g&show_icons=true&theme=radical)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=samm8g&layout=compact&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
 
 ## Blog Posts
 
