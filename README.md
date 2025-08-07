@@ -8,7 +8,7 @@ I am a self-taught developer with experience in various programming languages an
 
 ## Skills & Technologies
 
-[![My Skills](https://skillicons.dev/icons?i=py,html,css,js,bash,nix,kotlin,pycharm,webstorm,vscode,idea&perline=8)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=py,html,css,js,bash,nix,kotlin,lua,pycharm,webstorm,vscode,idea&perline=8)](https://skillicons.dev)
 
 ## GitHub Stats
 
