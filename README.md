@@ -1,4 +1,4 @@
-## Hi there! 👋
+## Hello there! 👋
 
 I'm Samm, a passionate developer who enjoys creating innovative solutions. I love coding and exploring new technologies! Please Support me :)
 
@@ -8,13 +8,15 @@ I am a self-taught developer with experience in various programming languages an
 
 ## Skills & Technologies
 
-[![My Skills](https://skillicons.dev/icons?i=py,html,css,js,bash,nix,kotlin,lua,pycharm,webstorm,vscode,idea&perline=8)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=py,html,css,js,bash,nix,kotlin,lua&perline=8)](https://skillicons.dev)
+
+[![My Skills](https://skillicons.dev/icons?i=androidstudio,pycharm,webstorm,idea,vscode&perline=8)](https://skillicons.dev)
 
 ## GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Samm8g&show_icons=true&theme=radical)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Samm8g&show_icons=true&theme=dark)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=samm8g&layout=compact&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=samm8g&layout=compact&theme=dark&langs_count=8)](https://github.com/anuraghazra/github-readme-stats)
 
 ## Blog Posts
 
