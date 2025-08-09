@@ -14,6 +14,7 @@ I'm Samm — a self-taught developer who enjoys building creative & practical so
 
 ## ⏳ Working & Online Hours
 
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat&logo=github)](#)
 ![Working Hours](https://img.shields.io/badge/Working%20Hours-Mon--Thu%2012PM--8PM-blue)
 ![Online Hours](https://img.shields.io/badge/Online%20Hours-12PM--10PM%20Everyday-green)
 [![Timezone](https://img.shields.io/badge/Timezone-GMT%2B3-lightgrey)](#)
@@ -25,13 +26,6 @@ I'm Samm — a self-taught developer who enjoys building creative & practical so
 [![GitHub last commit](https://img.shields.io/github/last-commit/Samm8g/Samm8g?label=Last%20Commit&color=yellow)](#)
 [![Profile Views](https://komarev.com/ghpvc/?username=Samm8g&color=orange&style=flat)](#)
 [![Top Language](https://img.shields.io/github/languages/top/Samm8g/Samm8g?color=purple)](#)
-
----
-
-## 🚀 Current Focus
-
-[![Current Project](https://img.shields.io/badge/Current%20Project-Offline%20Habit%20Tracker-brightgreen)](#)
-[![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat&logo=github)](#)
 
 ---
 
