@@ -56,11 +56,5 @@ _(Please use the email above, not my commit address.)_
 
 
 ---
-```
-                                 ___        
-  ___  __ _ _ __ ___  _ __ ___  ( _ )  __ _ 
- / __|/ _` | '_ ` _ \| '_ ` _ \ / _ \ / _` |
- \__ \ (_| | | | | | | | | | | | (_) | (_| |
- |___/\__,_|_| |_| |_|_| |_| |_|\___/ \__, |
-                                      |___/ 
-```
+##  
+![GitHub Activity Graph](https://activity-graph.vercel.app/graph?username=Samm8g&theme=github-compact)
