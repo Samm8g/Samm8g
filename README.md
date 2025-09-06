@@ -32,7 +32,7 @@ I'm Samm — a self-taught developer who enjoys building creative & practical so
 ## 🛠 Skills & Technologies
 
 **Languages & Frameworks:**  
-[![My Skills](https://skillicons.dev/icons?i=py,js,css,html,lua,nix,bash,md&perline=10)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=py,js,css,html,lua,nix,bash,md,kotlin&perline=10)](https://skillicons.dev)
 
 **Tools & IDEs:**  
 [![My Skills](https://skillicons.dev/icons?i=androidstudio,pycharm,webstorm,idea,vscode,neovim,vim,git,github,gitlab,linux&perline=10)](https://skillicons.dev)
