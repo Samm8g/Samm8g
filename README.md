@@ -1,6 +1,6 @@
-## Hello there! 👋
+##  Hello there! 👋
 
-I'm Samm — a self-taught developer who enjoys building creative & practical solutions. I’m always exploring new technologies, experimenting with ideas, and contributing to open-source projects.
+I'm Samm from **Turkey 🇹🇷** — a self-taught developer who enjoys building creative & practical solutions. I’m exploring new technologies & languages, experimenting with ideas and contributing to open-source projects.
 
 ---
 
@@ -17,7 +17,7 @@ I'm Samm — a self-taught developer who enjoys building creative & practical so
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat&logo=github)](#)
 ![Working Hours](https://img.shields.io/badge/Working%20Hours-Mon--Thu%2012PM--8PM-blue)
 ![Online Hours](https://img.shields.io/badge/Online%20Hours-12PM--10PM%20Everyday-green)
-[![Timezone](https://img.shields.io/badge/Timezone-GMT%2B3-lightgrey)](#)
+[![Timezone](https://img.shields.io/badge/Timezone-GMT%2B3%20🇹🇷-lightgrey)](#) 
 
 ---
 
