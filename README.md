@@ -32,7 +32,7 @@ I'm Samm from **Turkey 🇹🇷** — a self-taught developer who enjoys buildin
 ## 🛠 Skills & Technologies
 
 **Languages & Frameworks:**  
-[![My Skills](https://skillicons.dev/icons?i=py,js,css,html,lua,nix,bash,md,kotlin&perline=10)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=py,js,css,html,lua,nix,bash,md,kotlin,ruby,rails&perline=10)](https://skillicons.dev)
 
 **Tools & IDEs:**  
 [![My Skills](https://skillicons.dev/icons?i=androidstudio,pycharm,webstorm,idea,vscode,neovim,vim,git,github,gitlab,linux&perline=10)](https://skillicons.dev)
@@ -41,7 +41,7 @@ I'm Samm from **Turkey 🇹🇷** — a self-taught developer who enjoys buildin
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Samm8g&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Samm8g&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=samm8g&layout=compact&theme=dark&langs_count=8)](https://github.com/anuraghazra/github-readme-stats)
 
