@@ -7,7 +7,7 @@ I'm Samm from **Turkey 🇹🇷** — a self-taught developer who enjoys buildin
 ## 🧑‍💻 About Me
 
 - Focused on building applications that solve real-world problems.  
-- Experienced with multiple programming languages and development tools.  
+- Experiencing with multiple programming languages and development tools.  
 - Currently working on personal projects and contributing to open-source software.  
 
 ---
@@ -15,8 +15,8 @@ I'm Samm from **Turkey 🇹🇷** — a self-taught developer who enjoys buildin
 ## ⏳ Working & Online Hours
 
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat&logo=github)](#)
-![Working Hours](https://img.shields.io/badge/Working%20Hours-Mon--Thu%2012PM--8PM-blue)
-![Online Hours](https://img.shields.io/badge/Online%20Hours-12PM--10PM%20Everyday-green)
+[![Working Hours](https://img.shields.io/badge/Working%20Hours-Mon--Thu%2012PM--8PM-blue)](#)
+[![Online Hours](https://img.shields.io/badge/Online%20Hours-12PM--10PM%20Everyday-green)](#)
 [![Timezone](https://img.shields.io/badge/Timezone-GMT%2B3%20🇹🇷-lightgrey)](#) 
 
 ---
@@ -32,10 +32,10 @@ I'm Samm from **Turkey 🇹🇷** — a self-taught developer who enjoys buildin
 ## 🛠 Skills & Technologies
 
 **Languages & Frameworks:**  
-[![My Skills](https://skillicons.dev/icons?i=py,js,css,html,lua,nix,bash,md,kotlin,ruby,rails&perline=10)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=py,js,css,html,lua,nix,bash,md,kotlin,ruby,rails,docker&perline=10)](https://skillicons.dev)
 
 **Tools & IDEs:**  
-[![My Skills](https://skillicons.dev/icons?i=androidstudio,pycharm,webstorm,idea,vscode,neovim,vim,git,github,gitlab,linux&perline=10)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=androidstudio,pycharm,webstorm,idea,vscode,neovim,vim,git,github,gitlab,linux,&perline=10)](https://skillicons.dev)
 
 ---
 
@@ -58,4 +58,4 @@ _(Please use the email above, not my commit address.)_
 
 ---
 ##  
-![GitHub Activity Graph](https://activity-graph.vercel.app/graph?username=Samm8g&theme=github-compact)
+[![GitHub Activity Graph](https://activity-graph.vercel.app/graph?username=Samm8g&theme=github-compact)](https://github.com/Ashutosh00710/github-readme-activity-graph)
