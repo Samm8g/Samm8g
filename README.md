@@ -43,9 +43,10 @@ _Note: I don't know every language fully, these are the ones i have tried at lea
 
 ## 📊 GitHub Stats
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=samm8g&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=samm8g&show_icons=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&theme=dark)](https://github.com/anuraghazra/github-readme-stats) | [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=samm8g&layout=donut&theme=dark&langs_count=16)](https://github.com/anuraghazra/github-readme-stats) |
+|---|---|
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=samm8g&layout=donut&theme=dark&langs_count=16)](https://github.com/anuraghazra/github-readme-stats)
+
 
 
 ---
