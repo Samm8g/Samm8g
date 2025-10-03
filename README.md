@@ -31,10 +31,12 @@ I'm Samm from **Turkey 🇹🇷** — a self-taught developer who enjoys buildin
 
 ## 🛠 Skills & Technologies
 
-**Languages & Frameworks:**  
-[![My Skills](https://skillicons.dev/icons?i=py,js,css,html,lua,nix,bash,md,kotlin,ruby,rails,docker&perline=10)](https://skillicons.dev)
+_Note: I don't know every language fully, these are the ones i have tried at least once._
 
-**Tools & IDEs:**  
+- **Languages & Frameworks:**  
+[![My Skills](https://skillicons.dev/icons?i=py,js,css,html,lua,nix,bash,md,kotlin,ruby,rails,docker,c,cpp,cs&perline=10)](https://skillicons.dev)
+
+- **Tools & IDEs:**  
 [![My Skills](https://skillicons.dev/icons?i=androidstudio,pycharm,webstorm,idea,vscode,neovim,vim,git,github,gitlab,linux,&perline=10)](https://skillicons.dev)
 
 ---
