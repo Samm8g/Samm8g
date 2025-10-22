@@ -8,15 +8,15 @@ I'm Samm from **Turkey 🇹🇷** — a self-taught developer who enjoys buildin
 
 - Focused on building applications that solve real-world problems.  
 - Experiencing with multiple programming languages and development tools.  
-- Currently working on personal projects and contributing to open-source software.  
+- Mostly working on personal projects.  
 
 ---
 
 ## ⏳ Working & Online Hours
 
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat&logo=github)](#)
-[![Working Hours](https://img.shields.io/badge/Working%20Hours-Mon--Thu%2012PM--8PM-blue)](#)
-[![Online Hours](https://img.shields.io/badge/Online%20Hours-12PM--10PM%20Everyday-green)](#)
+[![Working Hours](https://img.shields.io/badge/Working%20Hours-Sat--Sun%202PM--6PM-blue)](#)
+[![Online Hours](https://img.shields.io/badge/Online%20Hours-Everyday%2012PM--12AM-green)](#)
 [![Timezone](https://img.shields.io/badge/Timezone-GMT%2B3%20🇹🇷-lightgrey)](#) 
 
 ---
@@ -43,11 +43,8 @@ _Note: I don't know every language fully, these are the ones i have tried at lea
 
 ## 📊 GitHub Stats
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=samm8g&show_icons=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&theme=dark)](https://github.com/anuraghazra/github-readme-stats) | [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=samm8g&layout=donut&theme=dark&langs_count=16)](https://github.com/anuraghazra/github-readme-stats) |
+| [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=samm8g&show_icons=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&theme=dark)](https://github.com/anuraghazra/github-readme-stats) | [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=samm8g&layout=donut&theme=dark&langs_count=16)](https://github.com/anuraghazra/github-readme-stats) |
 |---|---|
-
-
-
 
 ---
 
@@ -60,5 +57,10 @@ _(Please use the email above, not my commit address.)_
 
 
 ---
+
 ##  
 [![GitHub Activity Graph](https://activity-graph.vercel.app/graph?username=Samm8g&theme=github-compact)](https://github.com/Ashutosh00710/github-readme-activity-graph)
+
+---
+
+_Signed by Samm_
